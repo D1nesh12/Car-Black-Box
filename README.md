@@ -1,5 +1,5 @@
 # Car-Black-Box
-This project implements a car black box system using the PIC18F4580 microcontroller. The black box is designed to record vehicle data such as speed, acceleration, GPS location, and detect accidents or collisions.
+This project implements a car black box system using the PIC18F4580 microcontroller. The black box is designed to record vehicle data such as speed, acceleration, and detect accidents or collisions.
 
 ## Features
 Real-time data logging of vehicle parameters
@@ -11,8 +11,11 @@ User interface for configuration and data retrieval
 
 ## Hardware Requirements
 PIC18F4580 microcontroller
-External EEPROM (e.g., 24LC256)
-Sensors (accelerometer, GPS module)
+External EEPROM (24LC256)
+External RTC
+CLCD
+Matrix Keypad
+Sensors (accelerometer)
 LED indicators
 Power supply unit
 
